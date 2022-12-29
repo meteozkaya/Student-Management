@@ -1,0 +1,114 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.Wlcm{
+   box-sizing: border-box;
+}
+
+.hellospan{
+   float:right; 
+   display:block;
+}
+
+.exitbtn{
+   float:right; 
+   padding: 3px; 
+   padding-top: 1px; 
+   padding-bottom: 1px; 
+   margin-top: 10px;
+}
+
+.table> tbody > tr:nth-child(even) > td, .table > tbody > tr:nth-child(even) > th {
+    background-color: #e2e9fc
+ }
+
+ .bg-red{
+    background-color: red;
+ }
+
+ .bg-blue{
+    background-color: blue;
+ }
+
+ .bg-green{
+    background-color: green;
+ }
+
+ .bg-gray{
+   background-color: #f2f3f8 ;
+ }
+
+ .button{
+    color: white;
+    width: 70px;
+    margin-left: 3px;
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+ }
+
+.btn_tog{
+   font-size: 15px;
+   width: 150px;
+   margin-right: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   padding: 0px;
+}
+
+.btn-modal{
+   border: none;
+   background: #eefefe;
+}
+
+.card-item{
+   background-color: #eefefe  !important;
+}
+
+.card-list{
+   padding: 0px;
+   gap:0px;
+}
+
+ .pagebtn.active {
+   background-color: blue;
+   color: white;
+}
+
+.perPageBtn.active {
+   background-color: #0a6efe;
+   color: white;
+}
+
+.perPageBtn-5{
+   border: 3px solid #0a6efe;
+   border-top-left-radius: 20%;
+   border-bottom-left-radius: 20%;
+   border-right:none;
+}
+
+.perPageBtn-8{
+   border: 3px solid #0a6efe;
+}
+
+.perPageBtn-10{
+   border: 3px solid #0a6efe;
+   border-top-right-radius: 20%;
+   border-bottom-right-radius: 20%;
+   border-left:none;
+}
+
+#addStudentButton{
+   background-color: #0a6efe;
+
+}
+
+#addStudentButton:hover{
+   background-color: #02357d;
+}
