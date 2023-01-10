@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import List from './View/List';
 import axios from "axios"
-import { StudensC } from './StudentsC';
+import { StudensC } from './View/StudentsC';
 import Templateview from './View/Template';
 
 function App() {

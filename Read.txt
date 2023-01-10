@@ -1,0 +1,2 @@
+To start the React project type "npm run start"
+To start the Json server type "npm run svr"

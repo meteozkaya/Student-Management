@@ -181,49 +181,13 @@
       "dob": "2000-07-18"
     },
     {
-      "id": 21,
-      "fname": "Isim21",
-      "lname": "Soyisim21",
-      "num": "152120171121",
-      "dept": 1,
-      "pob": "Kars",
-      "dob": "2001-08-08"
-    },
-    {
-      "id": 22,
-      "fname": "Isim22",
-      "lname": "Soyisim22",
-      "num": "152120171122",
-      "dept": 4,
-      "pob": "Mardin",
-      "dob": "1997-01-31"
-    },
-    {
-      "id": 23,
-      "fname": "Isim23",
-      "lname": "Soyisim23",
-      "num": "152120171123",
-      "dept": 2,
-      "pob": "Van",
-      "dob": "2002-05-11"
-    },
-    {
-      "id": 24,
-      "fname": "Isim24",
-      "lname": "Soyisim24",
-      "num": "152120171124",
-      "dept": 1,
-      "pob": "Aydın",
-      "dob": "2001-09-11"
-    },
-    {
-      "id": 25,
-      "fname": "Isim25",
-      "lname": "Soyisim25",
-      "num": "152120171125",
-      "dept": 3,
-      "pob": "Mersin",
-      "dob": "2000-07-17"
+      "fname": "Soner",
+      "lname": "Özaşık",
+      "num": "132132132131",
+      "dept": "1",
+      "pob": "Mustafakemalpaşa",
+      "dob": "1111-11-11",
+      "id": 21
     }
   ]
 }

@@ -1,9 +1,9 @@
 import esogu_logo from './esogu-logo.png';
 import {PersonPlus , ToggleOff, ToggleOn} from 'react-bootstrap-icons'
 import { useContext, useState } from 'react';
-import { ToggleC } from '../ToggleC';
+import { ToggleC } from './ToggleC';
 import { Modal } from 'react-bootstrap';
-import addStudentModal from './Modals/addModal';
+import AddModal from './Modals/AddModal';
 
 function Head() {
     
@@ -34,11 +34,13 @@ function Head() {
                     {toggle? (<ToggleOn size={25} color="white"/>):(<ToggleOff size={25}/>) }
                 </button>
                 <button id="addStudentButton" className="btn text-white p-0 px-3" data-bs-toggle="modal" data-bs-target="#addStudentModal">
-                    <PersonPlus size={30} onClick={() => {setAddstudent(!addstudent)}} />
+                    <PersonPlus size={30} onClick={() => setAddstudent(true)} />
                 </button>
 
             </div>
-            {addstudent ? <addStudentModal show={addStudentModal} />: <addStudentModal onHide={ () => setAddstudent(false)} />}
+            <AddModal show={addstudent}
+            onHide= {() => setAddstudent(false)}
+            ></AddModal>
         </div>
     );
 }

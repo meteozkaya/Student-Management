@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import Head from "./Head";
 import List from "./List";
-import { ToggleC } from "../ToggleC";
+import { ToggleC } from "./ToggleC";
 
 function Templateview() {
    
